@@ -1,0 +1,13 @@
+# Wyniki kompilacji
+GUI-src/bin/
+GUI-src/obj/
+
+# Gotowe programy - buduje się je ze źródeł:
+#   Audi100-Diagnostyka.exe  <- GUI-src
+#   kw1281test-FIXED*.exe    <- ..\kw1281test-src\kw1281test-master (osobne repo, tagi fixed2/fixed3)
+*.exe
+*.pdb
+
+# Dane z pracy programów
+*.log
+Audi100-Diagnostyka.json
