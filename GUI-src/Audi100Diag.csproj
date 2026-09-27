@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Audi100Diag</RootNamespace>
+    <AssemblyName>Audi100-Diagnostyka</AssemblyName>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <Version>1.0.0</Version>
+    <Product>Audi 100 C4 - diagnostyka KW1281</Product>
+    <SatelliteResourceLanguages>pl</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+</Project>
