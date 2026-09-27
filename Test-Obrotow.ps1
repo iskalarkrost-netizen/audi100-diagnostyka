@@ -10,9 +10,9 @@ param(
 )
 
 $env:KW1281_R6 = 0
-$exe = "C:\Users\iskal\OneDrive\Pulpit\kw1281test-src\kw1281test-master\bin\Release\net10.0\kw1281test.exe"
+$exe = Join-Path $PSScriptRoot 'kw1281test-FIXED3.exe'
 
-if (-not (Test-Path $exe)) { throw "Brak zbudowanego kw1281test.exe: $exe" }
+if (-not (Test-Path $exe)) { throw "Brak kw1281test-FIXED3.exe obok skryptu: $exe" }
 
 $out = & $exe COM1 4800 1 AdaptationProbe 1 $Wartosc $Sekund 2>$null
 
